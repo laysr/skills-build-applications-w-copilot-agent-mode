@@ -4,7 +4,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'your-secret-key'
 DEBUG = True
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'potential-xylophone-4jj74wwxrjjc74qw-8000.app.github.dev']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
